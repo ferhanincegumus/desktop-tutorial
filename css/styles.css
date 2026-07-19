@@ -5,22 +5,26 @@
    ========================================================================== */
 
 :root {
-  /* Color — warm neutrals, deep forest, muted gold, stone */
+  /* Color — sourced from the Balviora jar mockup: deep teal-green label,
+     champagne-gold wordmark, vivid amber honey glass, black cap. */
   --color-cream: #FAF6EE;
   --color-cream-deep: #F2EBDC;
   --color-paper: #FFFDF9;
   --color-stone: #C9BFAE;
   --color-stone-light: #E4DDCF;
-  --color-forest-900: #16231A;
-  --color-forest-800: #1E3024;
-  --color-forest-700: #2A4432;
-  --color-forest-600: #3B5C43;
-  --color-forest-400: #6B8873;
-  --color-gold: #A9814C;
-  --color-gold-light: #C9A876;
-  --color-ink: #1B1B18;
+  --color-forest-900: #14201C;
+  --color-forest-800: #1B2C26;
+  --color-forest-700: #24392F;
+  --color-forest-600: #33513E;
+  --color-forest-400: #5C7A6A;
+  --color-gold: #B8916B;
+  --color-gold-light: #D3B18F;
+  --color-amber: #CE5B10;
+  --color-amber-light: #EE8A2E;
+  --color-amber-deep: #6E2E06;
+  --color-ink: #14201C;
   --color-ink-soft: #4A4842;
-  --color-line: rgba(27, 27, 24, 0.1);
+  --color-line: rgba(20, 32, 28, 0.1);
   --color-line-inverse: rgba(250, 246, 238, 0.16);
 
   /* Type */
@@ -399,9 +403,9 @@ section {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(120% 90% at 15% 0%, rgba(107, 136, 115, 0.55), transparent 60%),
-    radial-gradient(90% 70% at 85% 15%, rgba(169, 129, 76, 0.28), transparent 55%),
-    linear-gradient(190deg, #223A2A 0%, #16231A 55%, #0F1712 100%);
+    radial-gradient(120% 90% at 15% 0%, rgba(92, 122, 106, 0.5), transparent 60%),
+    radial-gradient(90% 70% at 85% 15%, rgba(206, 91, 16, 0.22), transparent 55%),
+    linear-gradient(190deg, #24392F 0%, #14201C 55%, #0D1512 100%);
 }
 
 .hero-scene__contours {
@@ -426,7 +430,7 @@ section {
 .hero-scene__vignette {
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg, rgba(15,23,18,0.75) 0%, rgba(15,23,18,0.15) 38%, transparent 60%);
+  background: linear-gradient(0deg, rgba(13,21,18,0.75) 0%, rgba(13,21,18,0.15) 38%, transparent 60%);
 }
 
 .hero-content {
